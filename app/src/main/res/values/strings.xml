@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ConvertorApp</string>
+
+    <string-array name="length">
+    <item><b>Select Measurement</b></item>
+    <item><b>Meter</b></item>
+    <item><b>Centimeter</b></item>
+    <item><b>Kilometer</b></item>
+    <item><b>Milimeter</b></item>
+    </string-array>
+    <string-array name="weight">
+        <item><b>Select Measurement</b></item>
+        <item><b>Grams</b></item>
+        <item><b>Kilograms</b></item>
+        <item><b>Ton</b></item>
+        <item><b>Miligrams</b></item>
+    </string-array>
+    <string-array name="speed">
+        <item><b>Select Measurement</b></item>
+        <item><b>Km/h</b></item>
+        <item><b>m/sec</b></item>
+    </string-array>
+</resources>

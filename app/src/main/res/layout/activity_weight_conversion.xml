@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#9575CD"
+    tools:context=".WeightConversion">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight Conversion"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/black"
+        android:textSize="40dp"/>
+
+    <Spinner
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="#CCFFF3E0"
+        android:padding="10dp"
+        android:outlineSpotShadowColor="@color/white"
+        android:layout_gravity="center"
+        android:entries="@array/weight"
+        />
+
+    <EditText
+        android:id="@+id/value"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:ems="30"
+        android:background="@color/white"
+        android:inputType="number"
+        android:hint="Enter your value you want to convert"
+        android:textColorHint="@color/black"
+        android:layout_gravity="center_horizontal"/>
+
+    <Spinner
+        android:id="@+id/weightcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="20dp"
+        android:background="#CCFFF3E0"
+        android:padding="10dp"
+        android:outlineSpotShadowColor="@color/white"
+        android:layout_gravity="center"
+        android:entries="@array/weight"
+        />
+
+    <Button
+        android:id="@+id/convertBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_gravity="center_horizontal"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Output"/>
+
+</LinearLayout>
